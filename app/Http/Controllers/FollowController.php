@@ -60,7 +60,7 @@ class FollowController extends Controller
         }
 
         $follow->delete();
-        return response()->json([], 204); // Sesuai kisi-kisi: 204 No Content
+        return response()->json([], 204); 
     }
 
 
